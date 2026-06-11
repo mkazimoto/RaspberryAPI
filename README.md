@@ -1,10 +1,10 @@
 # RaspberryAPI
 
-API REST minimalista em ASP.NET Core 9 projetada para rodar em Raspberry Pi.
+API REST minimalista em ASP.NET Core 8 projetada para rodar em Raspberry Pi.
 
 ## Requisitos
 
-- [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0) (para desenvolvimento)
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) (para desenvolvimento)
 - Raspberry Pi com Linux ARM (para deploy)
 
 ## Endpoints
