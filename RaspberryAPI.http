@@ -1,0 +1,6 @@
+@RaspberryAPI_HostAddress = http://localhost:5015
+
+GET {{RaspberryAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
