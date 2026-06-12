@@ -35,7 +35,7 @@ dotnet build
 ### Publicar para Raspberry Pi (linux-arm, self-contained)
 
 ```bash
-dotnet publish RaspberryAPI.csproj -c Release -r linux-arm --self-contained true -p:PublishSingleFile=true -p:EnableCompressionInSingleFile=true -o bin/publish/raspberry
+dotnet publish RaspberryAPI.csproj -c Release -r linux-arm64 --self-contained true -p:PublishSingleFile=true -p:EnableCompressionInSingleFile=true -o bin/publish/raspberry
 ```
 
 Ou use a task configurada no VS Code: **publish-raspberry**.
